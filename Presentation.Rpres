@@ -1,0 +1,50 @@
+Coursera Developing Data Products: Course Project
+========================================================
+author: NG PENG HONG
+date: 28 January 2016
+transition: rotate
+width: 1600
+height: 900
+
+Introduction
+========================================================
+type: sub-section
+
+This presentation is created as part of the requirement for the Coursera Developing Data Products Course. Objectives of the assignment are to ensure sound understanding of the following concepts
+
+- **shiny** to build data product application
+- **R-Presentation or slidify** to create data product related presentations
+
+The Application
+========================================================
+type: sub-section
+An  application based on the **mtcars** dataset from **[R]** has been developed and deployed at 
+
+https://phng.shinyapps.io/devdataprod/
+
+The app allows to perform interactive data analysis from a set of user specified criterias
+
+- Selling price of gasoline (USD/gallon).
+- Limit of money to be spent on gasoline.
+- Desired travel distance in miles.
+
+Additional Features of the App
+========================================================
+type: sub-section
+User will be able to further refine the results by choosing the desired car charateristics as below:
+- Number of Cylinders
+- Displacement
+- Horsepower
+- Transmission
+
+The source codes for ui.R and server.R files are also available on the [GitHub repo] (https://github.com/justusfrantz/devdataprod)
+
+The Data
+========================================================
+type: sub-section
+
+The data used in the app comes from the Motor Trend Car Road Tests **(mtcars)** dataset. The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). A brief look into the the data is shown below:
+
+```{r,}
+head(mtcars)
+```
